@@ -51,7 +51,7 @@ public class Percobaan1 {
         for(int d=0;d<data.length;d++){
             for(int e=0;e<data[d].length;e++){
                 if(data[d][e]==Angkacari){
-                    posisi.add("Baris "+(d+1)+" ,Kolom "+(e+1));
+                    posisi.add("Baris "+(d+1)+",Kolom "+(e+1));
                     baris.add(d);
                     kolom.add(e);
                 }
@@ -106,6 +106,6 @@ public class Percobaan1 {
         }
         //Menampilkan jumlahnya
         System.out.println("Jumlah semua nilai array pada indek ganjil = "+jumlah);
-    }
-    
+        
+    } 
 }
