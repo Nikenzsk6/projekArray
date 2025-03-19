@@ -95,6 +95,17 @@ public class Percobaan1 {
             }
             System.out.print("\n");
         }
+        // Menjumlahkan semua nilai elemen array pda indek ganjil
+        int jumlah=0;
+        for(int a=0; a<data.length;a++){
+            for(int b=0; b<data[a].length;b++){
+                if(b%2 !=0){
+                    jumlah +=data[a][b];
+                }
+            }
+        }
+        //Menampilkan jumlahnya
+        System.out.println("Jumlah semua nilai array pada indek ganjil = "+jumlah);
     }
     
 }
