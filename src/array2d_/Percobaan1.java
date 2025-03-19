@@ -72,7 +72,7 @@ public class Percobaan1 {
         
         //Meminta input posisi angka yang dicari
         int pilihan=0;
-        pilihan=Integer.parseInt(JOptionPane.showInputDialog("Masukkan angka posisi yang dipilih"));
+        pilihan=Integer.parseInt(JOptionPane.showInputDialog("Masukkan angka posisi yang dipilih"))-1;
         
         //memastikan input angka baru valid
         if(pilihan<0 || pilihan>posisi.size()){
@@ -88,15 +88,13 @@ public class Percobaan1 {
         data[baris.get(pilihan)][kolom.get(pilihan)]=angkaBaru;
         
         //Menampilkan array setelah perubahan
-        System.out.println("===Array setelah perubahan===");
-        for(int a=0;a<data.length;a++){
-            for(int b=0;b<data[a].length;b++){
+        System.out.println("===Array Setelah Perubahan===");
+        for(int a=0; a<data.length;a++){
+            for(int b=0; b<data[a].length;b++){
                 System.out.print(data[a][b]+" ");
             }
             System.out.print("\n");
         }
-        
-     
     }
     
 }
