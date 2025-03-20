@@ -43,9 +43,9 @@ public class Percobaan1 {
         Angkacari=Integer.parseInt(JOptionPane.showInputDialog("Masukkan angka yang dicari"));
         
         //Menyimpan semua posisi angka yang ditemukan
-        ArrayList<String>posisi = new ArrayList();
-        ArrayList<Integer>baris = new ArrayList();
-        ArrayList<Integer>kolom = new ArrayList();
+        ArrayList<String>posisi = new ArrayList<>();
+        ArrayList<Integer>baris = new ArrayList<>();
+        ArrayList<Integer>kolom = new ArrayList<>();
         
         //Mencari posisi angka dalam array
         for(int d=0;d<data.length;d++){
