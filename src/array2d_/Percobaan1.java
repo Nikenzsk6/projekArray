@@ -74,7 +74,7 @@ public class Percobaan1 {
         int pilihan=0;
         pilihan=Integer.parseInt(JOptionPane.showInputDialog("Masukkan angka posisi yang dipilih"))-1;
         
-        //memastikan input angka baru valid
+        //memastikan input posisi dengan angka valid
         if(pilihan<0 || pilihan>posisi.size()){
             JOptionPane.showMessageDialog(null, "Posisi tidak ditemukan");
             return;
